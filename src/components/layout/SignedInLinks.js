@@ -2,14 +2,10 @@ import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const SignedInLinks = () => {
-    const [ slate, setSlate ] = useState(0);
-    const printsomething = (intro) => console.log(intro);
+    const [slate, setSlate] = useState(0);
     const neki = "kaj";
     const test = neki;
     useEffect(() => {
-        console.log(slate);
-        printsomething(test);
-        console.log(test);
     }, [slate, test]);
 
     setSlate("neki");
@@ -26,7 +22,7 @@ const SignedInLinks = () => {
 
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default SignedInLinks;
