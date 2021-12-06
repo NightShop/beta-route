@@ -1,15 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
+
+const neki = "fds";
 
 const SignedInLinks = () => {
-    const [slate, setSlate] = useState(0);
-    const neki = "kaj";
-    const test = neki;
-    useEffect(() => {
-    }, [slate, test]);
-
-    setSlate("neki");
-
     return (
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">

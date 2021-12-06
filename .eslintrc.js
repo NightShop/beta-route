@@ -22,7 +22,7 @@ module.exports = {
       "react",
     ],
     rules: {
-      "react/function-component-definition": [2, { namedComponents: "arrow-function" }],
+      "react/function-component-definition": 0,
       quotes: ["error", "double"],
       indent: ["off"],
       "react/jsx-indent": ["off"],
