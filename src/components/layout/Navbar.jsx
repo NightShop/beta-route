@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import SignedInLinks from "./SignedInLinks";
+import SignedOutLinks from "./SignedOutLinks";
 
 const Navbar = () => (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark fs-5">
@@ -15,7 +16,7 @@ const Navbar = () => (
             >
                 <span className="navbar-toggler-icon" />
             </button>
-            <Link className="navbar-brand mx-4 fs-3" to="/home">
+            <Link className="navbar-brand fs-3" to="/home">
                 β
             </Link>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -29,6 +30,7 @@ const Navbar = () => (
                 </div>
             </div>
             <SignedInLinks />
+            <SignedOutLinks />
         </div>
     </nav>
 );

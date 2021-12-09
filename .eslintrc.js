@@ -27,7 +27,7 @@ module.exports = {
       indent: ["off"],
       "react/jsx-indent": ["off"],
       "react/react-in-jsx-scope": ["off"],
-      "react/jsx-filename-extension": "off",
+      "react/jsx-filename-extension": 1,
       "arrow-body-style": 1,
       "react/prop-types": 0,
       "max-len": [2, { code: 150 }],
