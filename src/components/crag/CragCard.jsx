@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const CragCard = () => {
     const [cragInfo, setCragInfo] = useState({
@@ -13,8 +13,10 @@ const CragCard = () => {
         public: true,
     });
 
+    const navigate = useNavigate();
+
     const goToCrag = (id) => {
-        console.log(id);
+        navigate(`/crags/${id}`);
     };
 
     return (

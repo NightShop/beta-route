@@ -1,9 +1,7 @@
-import { useEffect } from "react";
 import { Accordion } from "react-bootstrap";
-import AccordionItem from "react-bootstrap/esm/AccordionItem";
 
 const Home = () => (
-        <Accordion className="w-75 mx-auto mt-5" defaultActiveKey="0">
+        <Accordion className="w-75 mx-auto mt-5">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>
                     <h3>Statement</h3>
