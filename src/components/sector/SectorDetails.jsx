@@ -7,7 +7,7 @@ const SectorDetails = () => {
             <h1>{params.cragId}</h1>
             <h2>{params.sectorId}</h2>
         </div>
-    )
+    );
 };
 
 export default SectorDetails;

@@ -10,7 +10,7 @@ const SectorList = () => {
             <SectorCard sectorId="nw-wall" />
             <SectorCard sectorId="se-wall" />
         </div>
-    )
+    );
 };
 
 export default SectorList;
