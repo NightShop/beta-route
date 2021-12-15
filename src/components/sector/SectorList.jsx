@@ -7,6 +7,7 @@ const SectorList = () => {
     return (
         <div>
             <h2>{params.cragId}</h2>
+            <h4>Some info about sector itd..</h4>
             <SectorCard sectorId="nw-wall" />
             <SectorCard sectorId="se-wall" />
         </div>

@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import RouteList from "../route/RouteList";
 
 const SectorDetails = () => {
     const params = useParams();
@@ -6,6 +7,7 @@ const SectorDetails = () => {
         <div>
             <h1>{params.cragId}</h1>
             <h2>{params.sectorId}</h2>
+            <RouteList />
         </div>
     );
 };
