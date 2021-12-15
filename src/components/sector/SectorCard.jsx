@@ -21,7 +21,7 @@ const SectorCard = (props) => {
                 <div className="col-md-6">
                     <div className="card-body">
                         <h2>{data.name}</h2>
-                        <Link to={`${location.pathname}/${sectorId}`}>{sectorId}</Link>
+                        <Link className="stretched-link btn btn-primary" to={`${location.pathname}/${sectorId}`}>{sectorId}</Link>
                     </div>
                 </div>
                 <div className="col-md-6">

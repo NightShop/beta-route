@@ -46,7 +46,7 @@ const CragCard = () => {
                                     {cragInfo.location}
                                 </small>
                             </p>
-                            <button type="button" onClick={() => goToCrag(cragInfo.id)} className="btn btn-primary">
+                            <button type="button" onClick={() => goToCrag(cragInfo.id)} className="btn btn-primary stretched-link">
                                 View
                             </button>
                         </div>

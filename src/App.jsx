@@ -4,6 +4,7 @@ import CragList from "./components/crag/CragList";
 import Home from "./components/Home";
 import SectorList from "./components/sector/SectorList";
 import SectorDetails from "./components/sector/SectorDetails";
+import RouteDetails from "./components/route/RouteDetails";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/crags/all" element={<CragList />} />
             <Route path="/crags/:cragId" element={<SectorList />} />
             <Route path="/crags/:cragId/:sectorId" element={<SectorDetails />} />
+            <Route path="/crags/:cragId/:sectorId/:routeId" element={<RouteDetails />} />
           </Routes>
         </div>
       </div>

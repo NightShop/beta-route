@@ -5,8 +5,16 @@ const SectorDetails = () => {
     const params = useParams();
     return (
         <div>
-            <h1>{params.cragId}</h1>
-            <h2>{params.sectorId}</h2>
+            <h1>
+                Crag name:
+                {" "}
+                {params.cragId}
+            </h1>
+            <h2>
+                Sector name:
+                {" "}
+                {params.sectorId}
+            </h2>
             <RouteList />
         </div>
     );
